@@ -13,8 +13,8 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 300px;
-    height: 200px;
+    width: 350px;
+    height: 250px;
     margin-left: -150px;
     margin-top: -100px;
     overflow: hidden;
@@ -33,9 +33,9 @@
     padding: 20px;
 }
 
-.verify-window h3 {
+.verify-window h2 {
     font-family: 'Roboto', sans-serif;
-    font-size: 1em;
+    font-size: 2em;
     color: #4d4d4d;
     line-height: 1.7;
     margin-top: 10px;
@@ -66,16 +66,16 @@
 }
 
 .button-no {
-    float: right;
-    margin-right: 20px;
+    float: left;
+    margin-left: 20px;
     border: 2px solid #95969a;
     color: #95969a;
     display: block;
 }
 
 .button-yes {
-    float: left;
-    margin-left: 20px;
+    float: right;
+    margin-right: 20px;
 }
 
 .button-yes:hover {
